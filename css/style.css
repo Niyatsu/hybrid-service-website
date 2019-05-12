@@ -42,7 +42,9 @@ header .btn-primary {
 .carousel-caption {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
 }
 
 .nav-link {
@@ -144,7 +146,9 @@ i {
 }
 
 a.wp-button:hover {
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
     color: #fff;
     text-decoration: none;
 }
