@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    opacity: 0.8;
+}
+a.navbar-brand span {
+    font-family: 'Righteous', sans-serif;
+    font-size: 1.7rem !important;
+    color: #008ecc; 
+}
+
+footer a h3 {
+    color: #008ecc;
+    font-family: 'Righteous', sans-serif;
+    font-size: 1.7rem !important;
+}
+
+.fa-circle  {
+    font-size: 0.7rem;
+    margin: 0px 5px;
+    color: #73c2fb
+}
+.fa-battery-full {
+    font-size: 2rem;
+    margin: 0px 5px;
+    color: #3fe0d0
+}
+header .btn-primary {
+    background-color: #008ecc;
+    outline: none;
+}
+
+.carousel-inner img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin-right: .5rem;
+}
+
+header i {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+i {
+    margin: 1.5rem auto;
+    font-size: 3em;
+    text-shadow: 1px 1px 2px #333;
+}
+
+.hr-light {
+    border-top: 2px solid #f4f4f4;
+}
+
+.hr-dark {
+    margin-bottom: 2.5rem;
+    border-top: 1px solid #546882;
+}
+
+.fa-leaf {
+    color: #34b334;
+}
+
+.fa-wallet {
+    color: #804040;
+}
+
+.fa-cogs, .fa-cog {
+    color: #5d8aa8;
+}
+
+.fa-laptop {
+    color :#252321;
+}
+
+.fa-tools {
+    color: #6b4423;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-instagram {
+    color: #435A64;
+}
+
+.fa-whatsapp {
+    color: #4FCE5D;
+}
+.social a {
+    font-size: 1.5rem;
+    margin: 2.5rem;
+    text-decoration: none;
+}
+
+.social a i:hover {
+    text-shadow: 1px 1px 5px #333;
+}
+
+.contactForm {
+    max-width: 600px;
+    background-color: #73c2fb;
+}
+
+.contactForm label {
+    font-size: 1.3rem;
+    font-weight: 400;   
+}
+
+.input-group-text {
+    background-color: #fff;
+}
+
+.alert {
+    display: none;
+}
+
+.wp-button {
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+    background-color: #4FCE5D;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px;
+    z-index: 1000;
+}
+
+a.wp-button:hover {
+    transform: scale(1.1);
+    color: #fff;
+    text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        opacity: 1;
+    }
+
+    i {
+        font-size: 2.5rem;
+    }
+
+    .social a {
+        margin: 1.5rem;
+    }
+}
