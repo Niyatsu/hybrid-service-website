@@ -223,18 +223,24 @@
             </div>
             <div class="col-12 contactForm mx-auto" >
                 <h3 class="my-4">Bizə yazın</h3>
-                <div class="alert alert-success" role="alert">
+
+                <div id="success_message" class="alert alert-success" role="alert">
                        Mesajınız qəbul olundu!
                 </div>
-                <form id="contactForm" action="">
+
+                <div id="error_message" class="alert alert-success" role="alert">
+                    Mesajınız qəbul olunmadı!
+                </div>
+
+                <form role="form" method="post" id="contactForm" action="">
                    <div class="input-group mb-3">
-                       <input type="text" class="form-control" id="name" required>
+                       <input type="text" class="form-control" id="name" name="name" maxlength="50" required>
                        <div class="input-group-append">
                             <span class="input-group-text">Adınız</span>
                         </div>
                    </div>
                    <div class="input-group mb-3">
-                        <input type="tel" class="form-control" id="phone" required>
+                        <input type="tel" class="form-control" id="phone" name="phone" maxlength="50" required>
                         <div class="input-group-prepend">
                             <span class="input-group-text">Telefon nömrəniz</span>
                         </div>
@@ -242,10 +248,10 @@
 
                     <label for="message">Mesajınız</label>
                     <div class="input-group mb-3">
-                        <textarea class="form-control" aria-label="With textarea" id="message"></textarea>
+                        <textarea class="form-control" type="textarea" aria-label="With textarea" id="message" name="message" maxlength="1000"></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-primary mb-3">Göndər</button>
+                    <button id="btnContactUs" type="submit" class="btn btn-primary mb-3">Göndər</button>
                 </form>
                 <!-- <a class="wp-button" href="https://wa.me/994552049148" target="blank">
                     <i class="fab fa-whatsapp"></i>
@@ -285,5 +291,6 @@
     <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/form.js"></script>
 </body>
 </html>
