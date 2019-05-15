@@ -15,7 +15,7 @@
     <title>Hybrid Service</title>
 </head>
 <body>
-    <nav  class="navbar sticky-top navbar-expand-md navbar-dark bg-dark ">
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark ">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,7 +23,7 @@
         <a href="tel:+994705151332" class="btn btn-primary d-sm-block text-center"><i class="fas fa-phone"></i></a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a href="" class="nav-link text-light">Ana səhifə</a></li>
+                <li class="nav-item"><a href="#headerSlides" class="nav-link text-light">Ana səhifə</a></li>
                 <li class="nav-item"><a href="#technologies" class="nav-link text-light">Texnoloqiya</a></li>
                 <li class="nav-item"><a href="#services" class="nav-link text-light">Xidmətlərimiz</a></li>
                 <li class="nav-item"><a href="#aboutUs" class="nav-link text-light">Haqqımızda</a></li>
@@ -33,8 +33,8 @@
         </div>
     </nav>
 
-    <header id="headerSlides" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
+    <header id="headerSlides" class='d-flex flex-column justify-content-center align-items-center text-center'>
+        <!-- <div class="carousel-inner">
             <div class="carousel-item active">  
                 <img src="img/bg1.jpg" alt="">
                 <div class="carousel-caption">
@@ -55,7 +55,13 @@
         <a class="carousel-control-next" href="#headerSlides" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
-        </a>
+        </a> -->
+        <div id="overlay"></div>
+        <h2>Xoş gəldiniz!</h2>
+        <p>Biz istənilən model hibrid maşınlarının qulluğu və təmiri üzrə ixtisaslaşdırılmış professionallardan ibarət  təcrübəli komandayıq. Vaxt itirmədən ən tez zamanda konsultasiyaya yazılmaq istəyirsinizsə,  aşağıdakılar düyməyə basın!</p>
+        
+        <a href="#contacts" class="nav-link btn btn-success btn-lg text-light">Əlaqə!</a>
+        
     </header>
 
     <div id="technologies" class="container-fluid">
@@ -81,9 +87,8 @@
             <div class="col-sm-12 col-md-4">
                 <i class="fas fa-cogs"></i>
                 <h3 class="mb-4">Регенеративная тормозная система.</h3>
-                <p> Интересная вещь о гибридных автомобилях заключается в том, что каждый раз, когда вы применяете тормоза во время вождения, электрическая батарея немного подзаряжается.</p>    
+                <p> Интересная вещь о гибридных автомобилях заключается в том, что каждый раз, когда вы применяете тормоза во время вождения, электрическая батарея немного подзаряжается.</p>
             </div>
-
         </div>
     </div>
 
@@ -242,7 +247,7 @@
                    <div class="input-group mb-3">
                         <input type="tel" class="form-control" id="phone" name="phone" maxlength="50" required>
                         <div class="input-group-prepend">
-                            <span class="input-group-text">Telefon nömrəniz</span>
+                            <span class="input-group-text">Telefon</span>
                         </div>
                     </div>
 
