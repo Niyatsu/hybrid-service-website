@@ -29,7 +29,7 @@ footer a h3 {
     margin: 0px 5px;
     color: #3fe0d0
 }
-header .btn-primary {
+nav .btn-primary {
     background-color: #008ecc;
     outline: none;
 }
@@ -52,7 +52,7 @@ header .btn-primary {
     margin-right: .5rem;
 }
 
-header i {
+nav i {
     font-size: 1.5rem;
     margin: 0;
 }
@@ -110,7 +110,7 @@ i {
 }
 
 .social a i:hover {
-    text-shadow: 1px 1px 5px #333;
+    text-shadow: 2px 2px 3px #333;
 }
 
 .contactForm {
