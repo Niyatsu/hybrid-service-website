@@ -50,7 +50,7 @@ header h2 {
     font-size: 4rem;
     color: #f3f3f3;
     z-index: 1;
-    text-shadow: 1px 1px 5px #333;
+    text-shadow: 1px 1px 10px #000;
 }
 
 header p {
@@ -58,7 +58,7 @@ header p {
     font-size: 1.5rem;
     color: #f3f3f3;
     z-index: 1;
-    text-shadow: 1px 1px 5px #333;
+    text-shadow: 1px 1px 10px #000;
 }
 
 header a {
