@@ -159,8 +159,10 @@ i {
 }
 
 svg {
-    margin: 1rem auto;
+    width: 6rem;
+    margin: 2rem auto;
 }
+
 
 .contactForm {
     max-width: 50%;
@@ -235,6 +237,10 @@ footer {
 
 
 @media only screen and (max-width: 768px) {
+    .card {
+        margin-bottom: 2rem;
+    }
+    
     .contactForm {
         max-width: 90%;
     }
