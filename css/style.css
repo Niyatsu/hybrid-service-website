@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+* {
+    line-height: 1.7;
+}
+
 #services, #technologies, #aboutus, #contacts {
     margin: 3rem auto;
 }
@@ -148,19 +152,36 @@ i {
     font-size: 1.5rem;
     text-decoration: none;
 }
+
 .social svg {
     width: 2rem;
     margin: 0.5rem;
 }
 
+svg {
+    margin: 1rem auto;
+}
+
 .contactForm {
-    max-width: 600px;
+    max-width: 50%;
     background-color: #73c2fb;
 }
 
 .contactForm label {
     font-size: 1.3rem;
     font-weight: 400;   
+}
+
+#contactForm {
+    padding: 2rem 1rem;
+}
+
+#contactForm input, #contactForm textarea {
+    margin: 1rem auto;
+}
+
+#contactForm button{
+    margin: 1rem auto;
 }
 
 .input-group-text {
@@ -197,14 +218,27 @@ footer {
     width: 100%;
 }
 
+.card-title, .card-subtitle {
+    margin-bottom: 1.5rem;
+}
+
+
 @media only screen and (max-width: 995px) {
     .social svg {
         width: 1.5rem;
+    }
+
+    .contactForm {
+        max-width: 70%;
     }
 }
 
 
 @media only screen and (max-width: 768px) {
+    .contactForm {
+        max-width: 90%;
+    }
+    
     .navbar {
         opacity: 1;
     }
